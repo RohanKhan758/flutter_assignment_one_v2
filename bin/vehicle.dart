@@ -8,7 +8,7 @@ abstract class Vehicle{
   setSpeed(int speed){
     if(speed >0){
       _speed = speed;
-      print('The current speed of the car is $speed k.m');
+      print('The current speed of the car is $speed km/h');
     }else if(speed == 0) {
       _speed = speed;
       print('Speed of the car is $speed, the car is now standing still.');
